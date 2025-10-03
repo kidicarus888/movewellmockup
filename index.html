@@ -28,7 +28,7 @@
     </script>
     <style>
         .hero-bg {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1554284126-aa88f22d8b74?q=80&w=1920&auto=format&fit=crop');
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1519824145371-296894a0d72b?q=80&w=1920&auto=format&fit=crop');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
@@ -42,11 +42,6 @@
             opacity: 1;
             transform: translateY(0);
         }
-        .gradient-text {
-            background: linear-gradient(to right, #5C69F5, #8E47E1);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
     </style>
 </head>
 
@@ -59,8 +54,8 @@
             <nav class="hidden md:flex space-x-8">
                 <a href="#about" class="text-gray-600 hover:text-brand-blue transition-colors">About</a>
                 <a href="#method" class="text-gray-600 hover:text-brand-blue transition-colors">Method</a>
+                <a href="#how-it-works" class="text-gray-600 hover:text-brand-blue transition-colors">How It Works</a>
                 <a href="#services" class="text-gray-600 hover:text-brand-blue transition-colors">Services</a>
-                <a href="#gallery" class="text-gray-600 hover:text-brand-blue transition-colors">Gallery</a>
                 <a href="#contact" class="text-gray-600 hover:text-brand-blue transition-colors">Contact</a>
             </nav>
             <a href="#services" class="hidden md:inline-block bg-brand-blue text-white font-semibold px-5 py-2 rounded-lg hover:bg-opacity-90 transition-all transform hover:scale-105">Book a Session</a>
@@ -72,8 +67,8 @@
         <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
             <a href="#about" class="block py-2 text-gray-600 hover:text-brand-blue">About</a>
             <a href="#method" class="block py-2 text-gray-600 hover:text-brand-blue">Method</a>
+            <a href="#how-it-works" class="block py-2 text-gray-600 hover:text-brand-blue">How It Works</a>
             <a href="#services" class="block py-2 text-gray-600 hover:text-brand-blue">Services</a>
-            <a href="#gallery" class="block py-2 text-gray-600 hover:text-brand-blue">Gallery</a>
             <a href="#contact" class="block py-2 text-gray-600 hover:text-brand-blue">Contact</a>
             <a href="#services" class="mt-4 block bg-brand-blue text-white text-center font-semibold px-5 py-2 rounded-lg hover:bg-opacity-90">Book a Session</a>
         </div>
@@ -85,13 +80,13 @@
         <section class="hero-bg text-white">
             <div class="container mx-auto px-6 py-28 md:py-40 text-center">
                 <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-4">Move Better. Live Better.</h1>
-                <p class="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto mb-8">Hands-on bodywork designed to help you recover, realign, and perform at your best.</p>
+                <p class="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto mb-8">Hands-on bodywork designed to help you recover, feel better, and live without limits.</p>
                 <a href="#services" class="bg-brand-blue text-white font-semibold px-8 py-3 rounded-lg hover:bg-opacity-90 transition-transform transform hover:scale-105 text-lg">Book Your Session</a>
             </div>
         </section>
 
         <!-- Introduction Section -->
-        <section id="about" class="py-20 md:py-28 bg-gray-50 section-fade-in">
+        <section class="py-20 md:py-28 bg-gray-50 section-fade-in">
             <div class="container mx-auto px-6">
                 <div class="grid md:grid-cols-2 gap-12 items-center">
                     <div>
@@ -100,55 +95,37 @@
                             MoveWell is a modern bodywork studio in Jakarta for people who want more from their bodies. Athletes, professionals, and everyday movers who want to feel and perform their best.
                         </p>
                         <p class="text-gray-600 mb-6 leading-relaxed">
-                            We blend hands-on therapy with targeted movement strategies to improve how you move. We're not a physio clinic or a spa—we are a performance-focused studio dedicated to one thing: <span class="font-semibold text-brand-blue">helping you move well.</span>
+                            We blend hands-on techniques with targeted movement strategies to improve how you move. We're not a physio clinic or a spa—we are a recovery-focused studio dedicated to one thing: <span class="font-semibold text-brand-blue">helping you move well.</span>
                         </p>
                         <div class="flex space-x-4">
                              <div class="bg-white border border-gray-200 p-4 rounded-lg flex-1 text-center">
                                 <h3 class="font-bold text-xl text-brand-dark">Recover.</h3>
                             </div>
                              <div class="bg-white border border-gray-200 p-4 rounded-lg flex-1 text-center">
-                                <h3 class="font-bold text-xl text-brand-dark">Realign.</h3>
+                                <h3 class="font-bold text-xl text-brand-dark">Stretch.</h3>
                             </div>
                              <div class="bg-white border border-gray-200 p-4 rounded-lg flex-1 text-center">
-                                <h3 class="font-bold text-xl text-brand-dark">Perform.</h3>
+                                <h3 class="font-bold text-xl text-brand-dark">Massage.</h3>
                             </div>
                         </div>
                     </div>
                     <div>
-                        <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=600&auto=format&fit=crop" alt="A practitioner working on a client's shoulder in a clean, modern studio" class="rounded-lg shadow-xl w-full h-auto object-cover">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Philosophy Section -->
-        <section class="py-20 md:py-28 bg-white section-fade-in">
-            <div class="container mx-auto px-6 text-center">
-                <h2 class="text-3xl md:text-4xl font-bold text-brand-dark mb-2">Our Philosophy: Move Well, Live Well.</h2>
-                <p class="text-lg text-gray-600 max-w-3xl mx-auto mb-12">We believe movement is the foundation of health. When your body moves better, everything improves.</p>
-                <div class="grid md:grid-cols-2 gap-8 text-left">
-                    <div class="bg-gray-50 p-8 rounded-lg">
-                        <h3 class="text-2xl font-bold text-brand-blue mb-3">Our Vision</h3>
-                        <p class="text-gray-600 leading-relaxed">To set a new standard in body care, where optimizing movement and building resilience are essential parts of a healthy, active life.</p>
-                    </div>
-                    <div class="bg-gray-50 p-8 rounded-lg">
-                        <h3 class="text-2xl font-bold text-brand-blue mb-3">Our Mission</h3>
-                        <p class="text-gray-600 leading-relaxed">To restore natural movement and empower you to perform at your best. Through expert hands-on therapy, we focus on prehab and recovery to relieve tension, improve mobility, and help you live without limits.</p>
+                        <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=600&auto=format&fit=crop" alt="A person receiving a relaxing back massage" class="rounded-lg shadow-xl w-full h-auto object-cover">
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- The Re:Move Method Section -->
-        <section id="method" class="py-20 md:py-28 bg-gray-50 section-fade-in">
+        <section id="method" class="py-20 md:py-28 bg-white section-fade-in">
             <div class="container mx-auto px-6">
                 <div class="text-center max-w-3xl mx-auto">
                     <h2 class="text-3xl md:text-4xl font-bold text-brand-dark mb-4">The Re:Move Method</h2>
-                    <p class="text-lg text-gray-600 mb-12">Our signature system of bodywork is designed to reduce tension, improve joint mobility, relieve pain, and correct alignment. This is not a treatment for acute injury.</p>
+                    <p class="text-lg text-gray-600 mb-12">The Re:Move Method is our signature approach to bodywork. It's a fusion of effective techniques designed to release muscle tension, restore mobility, and improve your body's overall function. We focus on the root cause of your discomfort to help you find lasting relief and move with ease.</p>
                 </div>
                 <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                     <!-- Technique Card -->
-                    <div class="bg-white p-6 rounded-lg text-center border border-gray-200">
+                    <div class="bg-gray-50 p-6 rounded-lg text-center border border-gray-200">
                         <div class="mb-4 inline-block p-4 bg-blue-100 rounded-full">
                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-brand-blue w-8 h-8"><path d="M4 12.25V18a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5.75"/><path d="m14 6-4-1.5-4 1.5"/><path d="M12 21V12"/><path d="m20 6-4-1.5-4 1.5"/></svg>
                         </div>
@@ -156,15 +133,15 @@
                         <p class="text-gray-600">Hands-on techniques to free up restrictions in your connective tissue.</p>
                     </div>
                      <!-- Technique Card -->
-                    <div class="bg-white p-6 rounded-lg text-center border border-gray-200">
+                    <div class="bg-gray-50 p-6 rounded-lg text-center border border-gray-200">
                          <div class="mb-4 inline-block p-4 bg-blue-100 rounded-full">
                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-brand-blue w-8 h-8"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m4.93 19.07 1.41-1.41"/><path d="m17.66 6.34 1.41-1.41"/></svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-2">Trigger Point Therapy</h3>
+                        <h3 class="text-xl font-semibold mb-2">Trigger Point Bodywork</h3>
                         <p class="text-gray-600">Releasing muscular knots to relieve pain and restore function.</p>
                     </div>
                     <!-- Technique Card -->
-                    <div class="bg-white p-6 rounded-lg text-center border border-gray-200">
+                    <div class="bg-gray-50 p-6 rounded-lg text-center border border-gray-200">
                          <div class="mb-4 inline-block p-4 bg-blue-100 rounded-full">
                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-brand-blue w-8 h-8"><path d="M16.42 7.42a5 5 0 0 0-7.07-7.07l-2.07 2.07 7.07 7.07 2.07-2.07Z"/><path d="m13 11.5-2.07 2.07a5 5 0 0 0 7.07 7.07l2.07-2.07-7.07-7.07Z"/><path d="M9.5 14.5 2 22"/><path d="m14.5 9.5 7.5-7.5"/></svg>
                         </div>
@@ -172,7 +149,7 @@
                         <p class="text-gray-600">Gentle movements to improve your joint's range of motion.</p>
                     </div>
                     <!-- Technique Card -->
-                    <div class="bg-white p-6 rounded-lg text-center border border-gray-200">
+                    <div class="bg-gray-50 p-6 rounded-lg text-center border border-gray-200">
                         <div class="mb-4 inline-block p-4 bg-blue-100 rounded-full">
                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-brand-blue w-8 h-8"><path d="m12.6 2.1-5.1 2.2-4.1 3.5.2 6.5 4 4.8 5.1 2.2 4.1-3.5-.2-6.5-4-4.8Z"/><path d="m9.2 8.4 4.3 2.5-1.5 4.8"/><path d="m14.2 13.5 1.5-4.8-4.3-2.5"/></svg>
                         </div>
@@ -187,37 +164,39 @@
         <section class="relative py-28 md:py-40 bg-cover bg-center bg-fixed section-fade-in" style="background-image: url('https://images.unsplash.com/photo-1534254922687-83f9a73e6e22?q=80&w=1920&auto=format&fit=crop');">
             <div class="absolute inset-0 bg-brand-dark/70"></div>
             <div class="container mx-auto px-6 text-center relative z-10">
-                <h2 class="text-3xl md:text-5xl font-bold text-white leading-tight">Unlock Your Body's Potential.</h2>
-                <p class="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto mt-4">Experience the freedom of movement that comes from a balanced, aligned body.</p>
+                <h2 class="text-3xl md:text-5xl font-bold text-white leading-tight">Every Move Counts.</h2>
+                <p class="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto mt-4">Experience the freedom of movement that comes from a balanced, comfortable body.</p>
             </div>
         </section>
         
-        <!-- Client Experience -->
-        <section class="py-20 md:py-28 bg-white section-fade-in">
+        <!-- How It Works Section -->
+        <section id="how-it-works" class="py-20 md:py-28 bg-gray-50 section-fade-in">
             <div class="container mx-auto px-6">
-                 <div class="text-center max-w-3xl mx-auto">
-                    <h2 class="text-3xl md:text-4xl font-bold text-brand-dark mb-4">A Personalized Experience</h2>
-                    <p class="text-lg text-gray-600 mb-12">Every session is tailored to your body, your movement, and your goals.</p>
+                <div class="text-center max-w-3xl mx-auto">
+                    <h2 class="text-3xl md:text-4xl font-bold text-brand-dark mb-4">How It Works</h2>
+                    <p class="text-lg text-gray-600 mb-12">A simple, personalized process to get you moving and feeling better.</p>
                 </div>
-                <div class="relative">
+                <div class="relative max-w-5xl mx-auto">
                     <!-- The connecting line -->
                     <div class="hidden md:block absolute top-1/2 left-0 w-full h-0.5 bg-gray-200" style="transform: translateY(-50%);"></div>
-                    <div class="grid md:grid-cols-2 gap-8 md:gap-16 relative max-w-4xl mx-auto">
-                         <!-- Step 1 -->
-                        <div class="bg-gray-50 p-8 rounded-lg shadow-md text-center">
-                            <div class="relative inline-block">
-                                <span class="absolute -top-4 -left-4 bg-brand-blue text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-lg">1</span>
-                                <h3 class="text-2xl font-semibold text-brand-dark">Assessment</h3>
-                            </div>
-                            <p class="text-gray-600 mt-4">We start by understanding your movement patterns and goals.</p>
+                    <div class="grid md:grid-cols-3 gap-8 text-center relative">
+                        <!-- Step 1 -->
+                        <div class="relative bg-white p-8 rounded-lg shadow-md">
+                            <span class="absolute -top-4 left-1/2 -translate-x-1/2 bg-brand-blue text-white w-10 h-10 rounded-full flex items-center justify-center font-bold text-xl">1</span>
+                            <h3 class="text-2xl font-semibold text-brand-dark mt-4">Pick Your Time</h3>
+                            <p class="text-gray-600 mt-2">Choose from a 30, 60, or 90-minute session before or after your workout, or whenever you need to reset.</p>
                         </div>
                         <!-- Step 2 -->
-                        <div class="bg-gray-50 p-8 rounded-lg shadow-md text-center">
-                             <div class="relative inline-block">
-                                <span class="absolute -top-4 -left-4 bg-brand-blue text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-lg">2</span>
-                                <h3 class="text-2xl font-semibold text-brand-dark">Bodywork</h3>
-                            </div>
-                            <p class="text-gray-600 mt-4">Targeted hands-on therapy to release tension and reset movement.</p>
+                        <div class="relative bg-white p-8 rounded-lg shadow-md">
+                            <span class="absolute -top-4 left-1/2 -translate-x-1/2 bg-brand-blue text-white w-10 h-10 rounded-full flex items-center justify-center font-bold text-xl">2</span>
+                            <h3 class="text-2xl font-semibold text-brand-dark mt-4">Start Your Session</h3>
+                            <p class="text-gray-600 mt-2">Your session begins with a quick assessment. Tell us your areas of focus, like your neck, shoulders, lower back, or hips.</p>
+                        </div>
+                        <!-- Step 3 -->
+                        <div class="relative bg-white p-8 rounded-lg shadow-md">
+                            <span class="absolute -top-4 left-1/2 -translate-x-1/2 bg-brand-blue text-white w-10 h-10 rounded-full flex items-center justify-center font-bold text-xl">3</span>
+                            <h3 class="text-2xl font-semibold text-brand-dark mt-4">Relax & Recover</h3>
+                            <p class="text-gray-600 mt-2">Unwind with your personalized Re:Move bodywork session and leave feeling refreshed.</p>
                         </div>
                     </div>
                 </div>
@@ -225,7 +204,7 @@
         </section>
 
         <!-- Services Section -->
-        <section id="services" class="py-20 md:py-28 bg-gray-50 section-fade-in">
+        <section id="services" class="py-20 md:py-28 bg-white section-fade-in">
             <div class="container mx-auto px-6">
                 <div class="text-center max-w-3xl mx-auto">
                     <h2 class="text-3xl md:text-4xl font-bold text-brand-dark mb-4">Our Services</h2>
@@ -235,7 +214,7 @@
                     <!-- Core Service Card -->
                     <div class="lg:col-span-2 bg-brand-dark text-white p-8 rounded-lg shadow-xl flex flex-col">
                         <h3 class="text-3xl font-bold mb-2">The Re:Move Session</h3>
-                        <p class="text-gray-300 mb-6">Our core service combines targeted bodywork with deep relaxation to loosen muscles, free up joints, and improve posture.</p>
+                        <p class="text-gray-300 mb-6">Our core service combines targeted bodywork with deep relaxation to loosen muscles, free up joints, and improve balance and posture.</p>
                         <div class="space-y-4 flex-grow">
                             <div class="bg-gray-800 p-4 rounded-md">
                                 <h4 class="font-bold text-lg">30 min – Quick Reset</h4>
@@ -255,7 +234,7 @@
                     <!-- Other Services -->
                     <div class="space-y-6">
                         <div class="bg-white border border-gray-200 p-6 rounded-lg shadow-sm">
-                            <h3 class="text-xl font-semibold mb-2 text-brand-dark">Prehab Sessions</h3>
+                            <h3 class="text-xl font-semibold mb-2 text-brand-dark">Pre-Workout Sessions</h3>
                             <p class="text-gray-600">Quick mobilization before your game or workout.</p>
                         </div>
                         <div class="bg-white border border-gray-200 p-6 rounded-lg shadow-sm">
@@ -264,7 +243,7 @@
                         </div>
                         <div class="bg-white border border-gray-200 p-6 rounded-lg shadow-sm">
                             <h3 class="text-xl font-semibold mb-2 text-brand-dark">Targeted Sessions</h3>
-                            <p class="text-gray-600">Focus on one area that needs more attention.</p>
+                            <p class="text-gray-600">Focus on specific areas that need more attention.</p>
                         </div>
                     </div>
                 </div>
@@ -272,63 +251,75 @@
         </section>
 
         <!-- Who We Serve Section -->
-        <section class="py-20 md:py-28 bg-white section-fade-in">
+        <section class="py-20 md:py-28 bg-gray-50 section-fade-in">
             <div class="container mx-auto px-6">
                 <div class="grid md:grid-cols-2 gap-12 items-center">
                     <div>
-                        <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=600&auto=format&fit=crop" alt="An athlete preparing for a workout, representing peak performance" class="rounded-lg shadow-xl w-full h-auto object-cover">
+                        <img src="https://images.unsplash.com/photo-1599422598502-15a0d35a9632?q=80&w=600&auto=format&fit=crop" alt="A diverse group of people enjoying a wellness activity" class="rounded-lg shadow-xl w-full h-auto object-cover">
                     </div>
                      <div>
-                        <h2 class="text-3xl md:text-4xl font-bold text-brand-dark mb-4">Who We Serve</h2>
+                        <h2 class="text-3xl md:text-4xl font-bold text-brand-dark mb-4">For Every Body</h2>
                         <p class="text-gray-600 mb-6 leading-relaxed">
-                           We help anyone looking to improve how their body feels and performs.
+                           MoveWell is for everyone who wants to move and feel better. Whether you're dealing with stiffness from sitting at a desk, recovering from your latest workout, or simply want to invest in your long-term health, our bodywork sessions are designed for you. We help you relieve tension from daily life so you can continue to do what you love.
                         </p>
-                        <ul class="space-y-4">
-                            <li class="flex items-start">
-                                <svg class="w-6 h-6 text-brand-blue mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                <div>
-                                    <h4 class="font-semibold">Athletes (Pro & Recreational)</h4>
-                                    <p class="text-gray-600">Optimize recovery and prepare for peak performance.</p>
-                                </div>
-                            </li>
-                             <li class="flex items-start">
-                                <svg class="w-6 h-6 text-brand-blue mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                <div>
-                                    <h4 class="font-semibold">Active Professionals</h4>
-                                    <p class="text-gray-600">Relieve desk strain and alleviate daily aches.</p>
-                                </div>
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-6 h-6 text-brand-blue mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                <div>
-                                    <h4 class="font-semibold">Wellness Clients</h4>
-                                    <p class="text-gray-600">Focus on relaxation and long-term health.</p>
-                                </div>
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Gallery Section -->
-        <section id="gallery" class="py-20 md:py-28 bg-gray-50 section-fade-in">
+        <!-- About & Safety Section -->
+        <section id="about" class="py-20 md:py-28 bg-white section-fade-in">
             <div class="container mx-auto px-6">
-                <div class="text-center max-w-3xl mx-auto">
-                    <h2 class="text-3xl md:text-4xl font-bold text-brand-dark mb-4">The MoveWell Experience</h2>
-                    <p class="text-lg text-gray-600 mb-12">A glimpse into our hands-on approach to restoring movement and enhancing performance.</p>
+                 <div class="text-center max-w-3xl mx-auto">
+                    <h2 class="text-3xl md:text-4xl font-bold text-brand-dark mb-4">About MoveWell & Our Approach to Safety</h2>
+                    <p class="text-lg text-gray-600 mb-12">Learn about our focus, our methods, and our commitment to your well-being.</p>
                 </div>
-                <div class="grid md:grid-cols-3 gap-4">
-                    <div class="overflow-hidden rounded-lg shadow-lg">
-                        <img src="https://images.unsplash.com/photo-1614252199148-a9a7a6f05922?q=80&w=600&auto=format&fit=crop" alt="Practitioner performing myofascial release on a client's back" class="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500 ease-in-out">
+                <div class="grid md:grid-cols-2 gap-12 items-center mb-16">
+                    <div class="pr-8">
+                        <h3 class="text-2xl font-bold text-brand-dark mb-4">Our Focus is Your Movement.</h3>
+                        <p class="text-gray-600 mb-4 leading-relaxed">
+                            At MoveWell, we specialize in hands-on bodywork designed to help you recover, manage muscle tension, and improve your overall movement. Our goal is to support your active lifestyle by focusing on the health of your muscles and connective tissues.
+                        </p>
+                        <p class="text-gray-600 font-semibold mb-4 leading-relaxed">
+                            It's important to understand what we are not. We are not a medical clinic, and our services do not replace physiotherapy or other medical treatments. Our practitioners are not doctors.
+                        </p>
+                         <p class="text-gray-600 leading-relaxed">
+                           Our work is a proactive and complementary part of your wellness routine, helping to maintain your body's function and prevent the buildup of tension from daily life and activity.
+                        </p>
                     </div>
-                    <div class="overflow-hidden rounded-lg shadow-lg">
-                        <img src="https://images.unsplash.com/photo-1598266663289-2d1b5a59373e?q=80&w=600&auto=format&fit=crop" alt="Assisted leg stretching session" class="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500 ease-in-out">
-                    </div>
-                    <div class="overflow-hidden rounded-lg shadow-lg">
-                        <img src="https://images.unsplash.com/photo-1603145733316-7a0da11b1edc?q=80&w=600&auto=format&fit=crop" alt="Targeted muscle release on a client's shoulder" class="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500 ease-in-out">
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=800&auto=format&fit=crop" alt="A MoveWell practitioner explaining a technique to a client" class="rounded-lg shadow-xl w-full h-auto object-cover">
                     </div>
                 </div>
+                
+                <div class="max-w-4xl mx-auto mt-12">
+                     <div class="space-y-6">
+                        <div class="bg-gray-50 border border-red-200 p-6 rounded-lg">
+                            <h3 class="text-xl font-semibold text-red-700 mb-2">We Do Not Treat Acute Injuries</h3>
+                            <p class="text-gray-600">Our services are not suitable for acute injuries. If you have recently been injured, please consult a qualified medical provider. Premature bodywork can interfere with the natural healing process.</p>
+                        </div>
+                        
+                        <div class="bg-gray-50 border border-gray-200 p-6 rounded-lg">
+                            <h3 class="text-xl font-semibold text-brand-dark mb-2">Important Considerations & Contraindications</h3>
+                            <p class="text-gray-600 mb-4">Please inform us if you have any of the following conditions, as we will need to modify your session or recommend that you consult a doctor before booking.</p>
+                            <ul class="list-disc list-inside space-y-2 text-gray-600">
+                                <li><strong>Recent Surgery:</strong> Especially if an area requires immobilization.</li>
+                                <li><strong>Open Wounds or Sutures:</strong> We will avoid the affected area completely.</li>
+                                <li><strong>Active Muscle Spasms:</strong> We must avoid stretching muscles that are in spasm.</li>
+                                <li><strong>Recent Muscle Strains:</strong> Strains should not be stretched within 72 hours of injury.</li>
+                                <li><strong>Diseases Affecting Tissues:</strong> Conditions like rheumatoid arthritis require special care.</li>
+                                <li><strong>Vascular Injury or Anticoagulants:</strong> Clearance from your doctor is required.</li>
+                                <li><strong>Active Infections:</strong> To avoid spreading the infection or causing tissue damage.</li>
+                                <li><strong>Excessive Pain During Movement:</strong> This may indicate an underlying condition that needs medical review.</li>
+                                <li><strong>Inflammation or Joint Effusion (Swelling):</strong> Aggressive bodywork can cause further damage.</li>
+                            </ul>
+                        </div>
+                         <div class="bg-blue-50 border border-blue-200 p-6 rounded-lg text-center">
+                            <p class="text-blue-800">If you have any questions or concerns about a medical condition, please speak with your doctor before scheduling a session. We are happy to work with your healthcare provider to ensure our services are a safe and effective part of your wellness plan.</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
 
@@ -336,7 +327,7 @@
         <section id="contact" class="py-20 md:py-28 bg-brand-blue text-white section-fade-in">
             <div class="container mx-auto px-6 text-center">
                 <h2 class="text-3xl md:text-4xl font-bold mb-4">Ready to Move Without Limits?</h2>
-                <p class="text-lg text-blue-100 max-w-2xl mx-auto mb-8">Take the first step towards better movement, faster recovery, and peak performance. Your body will thank you.</p>
+                <p class="text-lg text-blue-100 max-w-2xl mx-auto mb-8">Take the first step towards better movement, faster recovery, and feeling your best. Your body will thank you.</p>
                 <a href="https://wa.me/620000000000" target="_blank" class="bg-white text-brand-blue font-bold px-8 py-3 rounded-lg hover:bg-gray-100 transition-transform transform hover:scale-105 text-lg inline-block">Book Your Session via WhatsApp</a>
                  <div class="mt-12 text-blue-200">
                     <p class="font-semibold">MoveWell Jakarta</p>
@@ -351,7 +342,7 @@
     <footer class="bg-brand-dark text-white">
         <div class="container mx-auto px-6 py-8 text-center">
             <p>&copy; 2025 MoveWell Jakarta. All rights reserved.</p>
-            <p class="text-gray-400 text-sm mt-2">The Future with MoveWell: Recover. Realign. Perform.</p>
+            <p class="text-gray-400 text-sm mt-2">Recover. Stretch. Massage.</p>
         </div>
     </footer>
 
@@ -364,12 +355,14 @@
         });
         
         // Close mobile menu when a link is clicked
-        const mobileMenuLinks = mobileMenu.getElementsByTagName('a');
-        for (let i = 0; i < mobileMenuLinks.length; i++) {
-            mobileMenuLinks[i].addEventListener('click', () => {
-                mobileMenu.classList.add('hidden');
+        const navLinks = document.querySelectorAll('header nav a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                if(link.getAttribute('href').startsWith('#')) {
+                    mobileMenu.classList.add('hidden');
+                }
             });
-        }
+        });
         
         // Section fade-in on scroll
         const sections = document.querySelectorAll('.section-fade-in');
